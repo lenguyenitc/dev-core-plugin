@@ -1,0 +1,25 @@
+
+#site-navigation ul {
+    margin: 0 auto;
+    z-index: 99992;
+    padding: 0 1.5em;
+}
+#breadcrumbs {
+    list-style: none;
+    overflow: hidden;
+    font-size: 0.8em!important;
+    text-align: left;
+    margin: 0;
+    padding: 0 2em;
+}
+#breadcrumbs a, #breadcrumbs .current {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+    outline: 0;
+}
+/*
+.logo-footer img {
+    -webkit-filter: saturate(0);
+    filter: saturate(0);
+}*/

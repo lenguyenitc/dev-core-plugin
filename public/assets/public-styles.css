@@ -1,0 +1,35 @@
+#playlistModal label {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+}
+#playlistModal sup {
+    color: red;
+}
+#playlistModal input,
+#playlistModal select {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#playlistModal button.close,
+#subscribeModal button.close{
+    float: right;
+    z-index: 1 !important;
+    background: transparent !important;
+    border: transparent !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#playlistModal h3 {
+    font-size: 20px;
+}
+span.removePlaylist {
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 10000;
+}
+span.removePlaylist:hover {
+    cursor: pointer;
+}

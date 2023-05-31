@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower');
+
+.page-container {
+    width:100%;
+    height:100%;
+    background-color: #000;
+    position:fixed;
+}
+.page-back {
+    width:120%;
+    height:120%;
+    left:-10%;
+    top:-10%;
+    position: absolute;
+    background-image: url('login-bg.jpg');
+    background-size:cover;
+    background-position: center;
+    filter:blur(1px);
+    -webkit-filter:blur(1px);
+}
+.text{
+    font-family: 'Amatic SC', cursive;
+    top:190px;
+    width:500px;
+    background-color: transparent;
+    z-index:2;
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    color:#fff;
+    text-align: center;
+    font-size: 60px;
+    line-height:10px;
+
+}
+
+#login{
+    position: absolute;
+    top: 0;
+    left: calc(50% - 160px);
+}
+
+#login h1{
+    display: none;
+}
+
+.login #backtoblog a, .login #nav a{
+    color: #f6faff;
+    font-size: 15px;
+}
+
+#backtoblog{
+    color: #f6faff;
+}
+.login form{
+    border: 1px solid #000000;
+    background: #150f26a1;
+    color: #b9a395;
+}
+
+body{
+    color: #a86148;
+}
+
+.wp-core-ui .button-primary{
+    background: #b97f5f;
+    border-color: #2b2034;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.wp-core-ui .button-primary:hover{
+    background-color: #6f3a36;
+    border-color: #2b2034;
+}
+
+.input:focus,
+.wp-core-ui .button-primary:focus {
+    outline: none!important;
+    box-shadow: 0 0 0 1px transparent!important;
+    border-color: transparent!important;
+}
+.wp-core-ui .button-primary:focus {
+    background-color: #6f3a36;
+}
+
+.login #login_error, .login .message, .login .success{
+    border-left: 4px solid #843b3f;
+}
+
+/*https://batsa.xyz/files/images/1/348/eti-krasavitsyi-lyubyat-jestkiy-bdsm-seks.jpg*/
